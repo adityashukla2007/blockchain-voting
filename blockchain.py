@@ -33,7 +33,7 @@ class Block:
 
 class Blockchain:
     def __init__(self):
-        self.candidates = ["Alice Johnson", "Bob Smith", "Carol Williams"]
+        self.candidates = ["Narendra Modi", "Yogi Adityanath", "Rahul Gandhi"]
 
     def calculate_hash_for(self, index, timestamp, voter_name, voter_id, candidate, previous_hash):
         block_string = str(index) + timestamp + voter_name + voter_id + candidate + previous_hash
